@@ -1,0 +1,219 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ebe6ea;
+    
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(80deg, #339933 50%, #D6AD3B );
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: 300;
+    color:brown;
+    text-align: center;
+}
+
+
+
+.table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    /* border: solid 1px black; */
+    padding: 20px;
+
+}
+thead{
+    background-color: #DC7633;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+
+}
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+.btn1{
+    width: 80px;
+    height: 30px;
+    background: #D6AD3B;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: #33DC42;
+    color: green;
+
+}
+.btn2{
+    width: 80px;
+    height: 30px;
+    background: #D6AD3B;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: #dc3333;
+    color: green;
+
+}
+/* navegador */
+.collapse navbar-collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.collapse .nav-item:hover{
+    background-color: rgb(59, 190, 59);
+    color: green;
+    
+
+}
+/* ingreso */
+.container-ingreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    
+}
+.form_title{
+    margin-top: 0;
+    font-size: 1.7em;
+    text-align: center;
+}
+.form_label, .form_input{
+    display: block;
+}
+.form_label{
+    width: 70%;
+}
+.form_input{
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+}
+.form_file{
+    font-size: 1em;
+    margin: 10px 0;
+    width: 100%;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.form_submit{
+    width: 100%;
+    background: #3e2e6f;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* navegador de Oficios */
+.collapse .nav-item .dropdown-menu:hover{
+    background-color: rgb(59, 190, 59);
+    color: white;
+}
+/* cart */
+
+
+/* Imagenes en carta*/
+.carousel-inner {
+    display: flex;
+    justify-content: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+.carousel{
+    padding: 10px;
+    width: 75%;
+    height: 50%;
+    margin: auto;
+}
+.carousel img{
+    width: auto;
+    height: auto;
+}
+/* iconos */
+#icon1 :hover{
+    /* background-color: #13c1f3; */
+    background-color: blue;
+    border-radius: 17px;
+}
+
+/* carusel */
+/* .carousel-item{
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+} */
+/* footer */
+
+footer{
+    background: #fff;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+
+#contenido{
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+
+.titulo-final{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
